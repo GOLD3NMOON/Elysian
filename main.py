@@ -1,0 +1,1 @@
+from src.strucs.bot import bot
