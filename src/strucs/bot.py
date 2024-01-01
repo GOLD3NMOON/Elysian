@@ -6,7 +6,7 @@ from ..settings.config import settings
 class Bot(commands.Bot):
     def __init__(self):
             super().__init__(
-                command_prefix=settings["TOKEN"],
+                command_prefix=settings["PREFIX"],
                 intents=discord.Intents.all()
         )
 bot = Bot()
