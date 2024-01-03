@@ -1,5 +1,4 @@
 from discord.ext import commands
-from tabulate import tabulate
 
 class OnReady(commands.Cog):
     def __init__(self, bot):
